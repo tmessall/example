@@ -1,0 +1,66 @@
+
+@media screen and (max-width:499px) {
+   body {
+  		background: black;
+  		align-items: center;
+  		justify-content: center;
+
+  }
+
+}
+
+.img {
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+#mobile {
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: gray;
+
+}
+
+#desktop {
+	text-decoration-color: gray;
+}
+
+
+.desktoptitle {
+	
+	font-family: "Architects Daughter";
+	font-size: 60px;
+	text-align: center;
+	width: 49%;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: gray;
+	padding-right: 30%;
+	padding-left: 30%;
+}
+
+.satan {
+	width: 300px;
+	min-width: 200px;
+	height: 300px;
+	background-color: gray;
+	border-color: black;
+	border-style: dashed;
+	margin-top: 20%;
+	font-size: 50px;
+	text-align: right;
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+
+}
+
+
+
+.people {
+	list-style-type: none;
+}
