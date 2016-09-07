@@ -1,19 +1,4 @@
-@media screen and (min-width:500px) {
-  
-li{
-	align: left;
-}
-}
-@media screen and (max-width: 499px) {
 
-   body {
-  	background-color: black
-  }
-  li {
-  	align: center;
-  	width:;
-  }
-}
 .img {
 	padding: 10px;
 	width: 100px;
@@ -37,7 +22,7 @@ li{
 	font-family: "Architects Daughter";
 	font-size: 60px;
 	text-align: center;
-	width: 45px;
+	width: 40%;
 	height: 70px;
 	position: fixed;
 	top: 0;
@@ -45,38 +30,44 @@ li{
 	background-color: gray;
 	padding-right: 30%;
 	padding-left: 30%;
+	margin-bottom: 3%;
 }
-
-.satan {
-	width: 45px;
-	height: 300px;
-	background-color: gray;
-	border-color: black;
-	border-style: dashed;
-	margin-top: 20%;
-	font-size: 50px;
-	text-align: right;
-	-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-			box-sizing: border-box;
-
-
-}
-
-
 
 .people {
-	list-style-type: none;
+	height: 300px;
+	width: 35%;
+	font-size: 50px;
+	text-align: left;
+	background: gray;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 9%;
+	margin-bottom: 3%;
+	border: solid black;
 }
 
-.satan1 {
-	width: 45px;
-	height: 300px;
-	background-color: gray;
-	margin-top: 20%;
-	font-size: 50px;
-	align-items: left;
-	-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-			box-sizing: border-box;
+
+.pic {
+	height: 100px;
+	width: 100px;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+.span {
+	font-size: 25px;
+}
+
+
+@media screen and (max-width: 499px) {
+
+   body {
+  	background-color: black
+  }
+  p {
+  	display: inline-block; 
+  }
+
 }
